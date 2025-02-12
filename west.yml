@@ -30,6 +30,14 @@ manifest:
   # Please add items below based on alphabetical order
   # zephyr-keep-sorted-start re(^\s+\- name:)
   projects:
+    - name: zephyr-fus-resources
+      url: https://github.com/<dein-benutzername>/zephyr-fus-resources.git
+      revision: main
+      path: modules/zephyr-fus-resources
+  self:
+    path: zephyr
+
+  projects:
     - name: acpica
       revision: 8d24867bc9c9d81c81eeac59391cda59333affd4
       path: modules/lib/acpica
@@ -363,6 +371,7 @@ manifest:
     - name: zcbor
       revision: 9b07780aca6fb21f82a241ba386ad9b379809337
       path: modules/lib/zcbor
+      
   # zephyr-keep-sorted-stop
 
   self:
