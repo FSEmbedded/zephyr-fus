@@ -20,7 +20,7 @@ manifest:
 
   remotes:
     - name: upstream
-      url-base: https://github.com/zephyrproject-rtos
+      url-base: https://github.com/FSEmbedded/zephyr-fus
     - name: babblesim
       url-base: https://github.com/BabbleSim
 
@@ -34,10 +34,6 @@ manifest:
       url: https://github.com/<dein-benutzername>/zephyr-fus-resources.git
       revision: main
       path: modules/zephyr-fus-resources
-  self:
-    path: zephyr
-
-  projects:
     - name: acpica
       revision: 8d24867bc9c9d81c81eeac59391cda59333affd4
       path: modules/lib/acpica
