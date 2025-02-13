@@ -31,7 +31,7 @@ manifest:
   # zephyr-keep-sorted-start re(^\s+\- name:)
   projects:
     - name: zephyr-fus-resources
-      url: https://github.com/<dein-benutzername>/zephyr-fus-resources.git
+      url: https://github.com/FSEmbedded/zephyr-fus-resources
       revision: main
       path: modules/zephyr-fus-resources
     - name: acpica
